@@ -41,3 +41,14 @@ These images are signed with [Sigstore](https://www.sigstore.dev/)'s [cosign](ht
 ```bash
 cosign verify --key cosign.pub ghcr.io/blue-build/template
 ```
+
+## Usage
+
+- Install Aurora as documented at https://getaurora.dev/en/
+- Connect to the internet via ethernet (with usb adapter or usb tethered hotspot)
+- Run the following:
+
+```
+sudo bootc switch ghcr.io/jeffam/aurora-macbookair7-2:latest
+sudo reboot
+```
